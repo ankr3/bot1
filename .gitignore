@@ -1,0 +1,26 @@
+# Игнорировать папку node_modules (все установленные пакеты)
+node_modules/
+
+# Игнорировать файл .env (с конфиденциальными данными)
+.env
+
+# Игнорировать логи
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Игнорировать кэшные файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Игнорировать кэшные файлы npm
+package-lock.json
+yarn.lock
+
+# Игнорировать временные файлы редакторов
+*.swp
+*~
+.vscode/
+.idea/
